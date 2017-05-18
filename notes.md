@@ -1,3 +1,11 @@
+### ANN
+
+Training goes back and forth
+Prediction only goes forward
+
+
+
+### Layer
 *input* a layer will have input vector that is as big as as number of neurons it has
 *output* a layer will have ouput vector that is as big as as number of neurons it has
 
