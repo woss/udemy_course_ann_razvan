@@ -1,0 +1,15 @@
+version: '3'
+services:
+  sl_jupyter:
+    command: start-notebook.sh --NotebookApp.token=''
+    image: "jupyter/scipy-notebook"
+    restart: always
+    expose:
+        - 8888
+    # ports:
+    #   - "8888:8888"
+    volumes:
+        - .:/home/jovyan/work
+    environment:
+     - VIRTUAL_HOST=ann_udemy.dev
+    network_mode: "bridge"
