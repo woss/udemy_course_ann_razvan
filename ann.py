@@ -99,7 +99,7 @@ class Layer:
 
 
 if __name__ == '__main__':
-    and_ann = ANN([2, 1])
+    and_ann = ANN([1, 1])
     inputs = [[0.0, 0.0], [0.0, 1.0], [1.0, 0.0], [1.0, 1.0]]
     targets = [[0.0], [0.0], [0.0], [1.0]]
 
